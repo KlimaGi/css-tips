@@ -1,0 +1,14 @@
+.demo-area {
+  margin: 0 auto;
+  padding: 0.25rem 1rem;
+  width: 70ch;
+  background: hsl(213, 100%, 76%);
+}
+/* global selection */
+::selection {
+  background-color: hsl(51, 72%, 72%);
+}
+/* specific element selection */
+.demo-area p::selection {
+  background-color: hsla(297, 48%, 60%, 0.693);
+}

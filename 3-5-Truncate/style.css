@@ -1,0 +1,32 @@
+.demo-area {
+  margin: 0 auto;
+  width: 70ch;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: min(40ch, calc(100vh - 2rem));
+  border: 2px solid black;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.card img {
+  width: calc(100% + 2rem);
+  margin: -1rem -1rem 0 -1rem;
+}
+
+h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card p {
+  height: 6.5rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
