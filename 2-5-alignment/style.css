@@ -1,0 +1,17 @@
+.demo-area {
+  display: grid;
+  margin: 0 auto;
+  inline-size: 65vw;
+  block-size: 65vh;
+  background: #a6a6a6;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.center {
+  border: 5px solid #500754;
+  padding: 1rem;
+  align-self: center;
+  justify-self: center;
+}
